@@ -1,0 +1,51 @@
+.container__primario {
+  background-image: linear-gradient(to right bottom, #ae0404, #860018, #5c091b, #310d16, #000000);
+
+}
+
+.primario__descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 5em 0;
+}
+
+.primario__descricao-nome {
+  font-weight: 300;
+  font-size: 30px;
+  margin: 0.5em 0 0.1em 0;
+
+}
+
+b {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.primario__descricao-titulo {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 1.5s steps(15) infinite alternate,
+  blink 800ms steps(13) infinite normal;
+  border-right: 5px solid var(--cor-branco);
+}
+
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 175px;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: var(--cor-branco);
+  }
+  to {
+    border-color: transparent;
+  }
+}

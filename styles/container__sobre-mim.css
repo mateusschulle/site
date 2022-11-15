@@ -1,0 +1,29 @@
+.container__sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+}
+.sobre-mim__imagem {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.sobre-mim__titulo {
+    color: black;
+    font-weight: 400;
+    margin: 0.5em 0;
+    font-size: 25px;
+}
+
+.titulo-dois {
+    font-size: 25px;
+    color: #ae0404;
+}
+.sobre-mim__descricao {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 16px;
+}

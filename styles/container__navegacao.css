@@ -1,0 +1,33 @@
+.container__navegacao {
+    padding: 20px 25px;
+}
+
+.botao__navegacao {
+    background-color: rgba(255, 255, 255, 0.411) ;
+    padding: 0.5em;
+    display: block;
+    
+}
+
+.navegacao__lista {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.411) ;
+    width: 30%;
+    padding: 10px 10px 5px 10px;
+    margin-top: 0.5em;
+    
+}
+
+.navegacao__lista-item {
+    margin-bottom: 5px;
+}
+
+
+.navegacao__lista-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    
+}
+
