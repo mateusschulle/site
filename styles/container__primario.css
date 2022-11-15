@@ -49,3 +49,44 @@ b {
     border-color: transparent;
   }
 }
+
+
+@media screen and (min-width: 1024px){
+
+  .container__primario {
+    height: 100vh;
+  }
+
+  .primario__descricao {
+    padding: 8em 0;
+  }
+
+  .primario__descricao-nome {
+    font-weight: 300;
+    font-size: 60px;
+    margin: 0.5em 0 0.1em 0;
+  
+  }
+
+  b {
+    font-weight: 700;
+    font-size: 60px;
+  }
+
+  .primario__descricao-descricao {
+    font-size: 20px;
+  }
+
+  .primario__descricao-titulo {
+    font-size: 20px;
+  }
+
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 202px;
+    }
+  }
+}

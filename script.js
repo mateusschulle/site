@@ -3,6 +3,7 @@ botao.onclick = abreMenu;
 let menu = document.querySelector(".navegacao__lista");
 let habilitar = true;
 
+
 function abreMenu() {
 
     if (habilitar) {

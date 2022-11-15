@@ -40,3 +40,13 @@ a {
     text-transform: none;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .container__projetos {
+        padding: 100px 200px 0px 200px;
+    }
+
+    .projetos-descricao {
+        font-size: 14px;
+    }
+}

@@ -6,7 +6,6 @@
     background-color: rgba(255, 255, 255, 0.411) ;
     padding: 0.5em;
     display: block;
-    
 }
 
 .navegacao__lista {
@@ -31,3 +30,22 @@
     
 }
 
+@media screen and (min-width: 1024px){
+    .botao__navegacao {
+        display: none;
+    }
+
+    .navegacao__lista {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        background-color: transparent;
+        width: 30%;
+        padding: 10px 0;
+        border-bottom: 1px solid white;
+    }
+
+    .navegacao__lista-item:hover {
+        margin-top: -1px;
+    }
+}

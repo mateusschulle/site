@@ -31,3 +31,13 @@
     display: grid;
     grid-template-columns: 60% 40%;
 }
+
+@media screen and (min-width: 1024px) {
+    .container__contato {
+        padding: 100px 200px 50px 200px;
+    }
+
+    .contato__imagem {
+        max-width: 60px;
+    }
+}
