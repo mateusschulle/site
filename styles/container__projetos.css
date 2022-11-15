@@ -1,0 +1,114 @@
+.container__projetos {
+    padding: 5em 15em;
+}
+
+.projetos__descricao {
+    margin-bottom: 2em;
+}
+
+.projetos__titulo {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--cor-roxo-escuro);
+    margin-bottom:0.3em;
+
+}
+
+.projetos-descricao {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: var(--cor-roxo-escuro);
+    line-height: 27px;
+}
+
+.projetos__lista {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.projetos__lista a {
+    text-decoration: none;
+}
+
+.projetos__item {
+    padding: 20px;
+    width: 200px;
+    height: 270px;
+    background-color: var(--cor-roxo-claro);
+    border-radius: 2px;
+    margin-bottom: 1.5em;
+}
+
+.projetos__item:hover {
+    box-shadow: 0 7px 5px var(--cor-roxo-escuro);
+    cursor: pointer;
+}
+
+
+.projeto__imagem {
+    width: 200px;
+    height: 190px;
+    border-radius: 2px;
+}
+
+.item__titulo {
+    margin: 0.1em 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--cor-laranja);
+    line-height: 27px;
+}
+
+.item__descricao {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--cor-branco);
+    line-height: 17px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .container__projetos {
+        padding: 2em 2.5em;
+    }
+
+    .projetos__descricao {
+        margin-left: 0;
+    }
+
+    .projetos-descricao {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        color: var(--cor-roxo-escuro);
+        line-height: 18px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .projetos__item {
+        padding: 15px;
+        width: 100px;
+        height: 130px;
+        background-color: var(--cor-roxo-claro);
+        margin: 1em 1em;
+        border-radius: 2px;
+    }
+
+    .projeto__imagem {
+       display: none;
+    }
+
+    .item__descricao {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        color: var(--cor-branco);
+        line-height: 16px;
+    }
+}
+
