@@ -1,0 +1,20 @@
+.container__contato {
+    padding: 25px;
+}
+
+.contato__titulo {
+    color: #ae0404;
+    font-weight: 700;
+    margin: 0.5em 0;
+    margin-bottom: 1em;
+    font-size: 25px;
+}
+
+.contato__lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato__imagem {
+    max-width: 60px;
+}

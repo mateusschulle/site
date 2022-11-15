@@ -35,3 +35,8 @@
     line-height: 16px;
     text-align: justify;
 }
+
+a {
+    text-transform: none;
+    text-decoration: none;
+}
