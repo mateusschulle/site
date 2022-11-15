@@ -1,1 +1,0 @@
-//alert("Olá, este site ainda está em construção, e por isso não está responsivo para celulares e tablets. Para uma melhor experiência, favor abrir com um computador.")
