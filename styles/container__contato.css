@@ -12,9 +12,22 @@
 
 .contato__lista {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .contato__imagem {
-    max-width: 60px;
+    max-width: 40px;
+}
+
+.curriculo__download {
+    margin: auto;
+    color: white;
+    font-weight: 700;
+    background-color: #5c091b;
+    padding: 0.8em 1em;
+}
+
+.contato__grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
 }
