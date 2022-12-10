@@ -1,0 +1,48 @@
+.container__projetos {
+    padding: 3em 2em;
+    background-color: var(--cor-azul-medio);
+    display: flex;
+    flex-direction: column;
+}
+
+.container__projetos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.container__projetos-titulo {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.container__projetos-lista-link {
+    text-decoration: none;
+    color: white;
+}
+
+.container__projetos-lista-item {
+    border-radius: 2px;
+    height: 140px;
+    width: 250px;
+    margin: 2em 0;
+    background-color: #1c31a51d;
+    padding: 1em;
+    border: solid 3px;
+    border-image: linear-gradient(45deg,#1c31a5,#2deafd) 10;
+}
+
+.container__projetos-lista-item-titulo {
+    font-size: 18px;
+    margin-bottom: 0.8em;
+    color: var(--cor-amarelo);
+    font-weight: 800;
+}
+
+.container__projetos-lista-item-descricao {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 20px;
+}

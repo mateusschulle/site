@@ -1,0 +1,31 @@
+.container__sobre-mim {
+    background-color: var(--cor-azul-escuro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 2em;
+}
+.container__sobre-mim-imagem {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.container__sobre-mim-titulo {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 1em 0;
+}
+
+b {
+    font-weight: 500;
+    border: solid 2px;
+    border-image: linear-gradient(45deg,#1c31a5,#2deafd) 10;
+    padding: 0.4em 0.5em;
+}
+
+.container__sobre-mim-descricao {
+    color: white;
+    text-align: justify;
+    line-height: 15px;
+}

@@ -1,0 +1,54 @@
+.container__contato {
+    background-color: var(--cor-azul-escuro);
+    padding: 3em 2em;
+}
+
+.container__contato-titulo {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1em 0;
+    border: solid 2px;
+    border-image: linear-gradient(45deg,#1c31a5,#2deafd) 10;
+    display: inline-block;
+    padding: 0.4em 0.5em;
+}
+
+.container__contato-lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__contato-lista-link {
+    display: flex;
+    align-items: center;
+    margin: 2em 0;
+    text-decoration: none;
+}
+
+.container__contato-lista-logo {
+    width: 50px;
+    margin-right: 1em;
+}
+
+.container__contato-lista-titulo {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.container__contato-curriculo {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1em 0;
+    border: solid 2px;
+    border-image: linear-gradient(45deg,#1c31a5,#2deafd) 10;
+    display: inline-block;
+    padding: 0.4em 0.5em;
+    text-decoration: none;
+}
+
+.container__contato-curriculo::before {
+    content: '\2913';
+}

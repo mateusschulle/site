@@ -1,0 +1,43 @@
+.cabecalho {
+    background-color: var(--cor-azul-medio);
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+
+.cabecalho__menu-hamburguer {
+    width: 50px;
+}
+
+.cabecalho__titulo {
+    color: white;
+    font-size: 15px;
+    margin-left: 1em;
+    font-weight: 700;
+}
+
+.cabecalho__menu {
+    display: none;
+    padding: 1em;
+    position: absolute;
+    top: 57px;
+    left: 0;
+    background-color: var(--cor-azul-medio);
+}
+
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 40vw;
+    justify-content: space-evenly;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
