@@ -1,21 +1,16 @@
 .container__projetos {
     padding: 3em 2em;
-    background-color: var(--cor-azul-medio);
     display: flex;
     flex-direction: column;
 }
 
 .container__projetos-lista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
 }
 
 .container__projetos-titulo {
-    color: white;
+    color: black;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .container__projetos-lista-link {
@@ -24,20 +19,17 @@
 }
 
 .container__projetos-lista-item {
-    border-radius: 2px;
-    height: 140px;
-    width: 250px;
+    border-radius: 5px;
+    height: 100px;
     margin: 2em 0;
-    background-color: #1c31a51d;
+    background-color: var(--cor-azul-claro);
     padding: 1em;
-    border: solid 3px;
-    border-image: linear-gradient(45deg,#1c31a5,#2deafd) 10;
 }
 
 .container__projetos-lista-item-titulo {
     font-size: 18px;
-    margin-bottom: 0.8em;
-    color: var(--cor-amarelo);
+    margin-bottom: 0.5em;
+    color: var(--cor-amarela);
     font-weight: 800;
 }
 

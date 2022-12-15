@@ -1,38 +1,55 @@
 .cabecalho {
-    background-color: var(--cor-azul-medio);
+    background-color: var(--cor-azul-claro);
     display: flex;
     padding: 1em;
     align-items: center;
-    position: fixed;
     width: 100vw;
 }
 
 .cabecalho__menu-hamburguer {
-    width: 50px;
+    width: 25px;
+    padding: 0.5em;
+    border: solid 2px transparent;
+    transition: .25s;
+    border-radius: 5px;
+}
+
+.cabecalho__menu-hamburguer--ativo {
+    border: solid 2px var(--cor-amarela);
+    border-radius: 5px;
+    transition: .25s;
 }
 
 .cabecalho__titulo {
-    color: white;
+    color: var(--cor-amarela);
     font-size: 15px;
     margin-left: 1em;
     font-weight: 700;
 }
 
 .cabecalho__menu {
-    display: none;
-    padding: 1em;
+    height: calc(100vh - 54.66px);
+    width: 60%;
     position: absolute;
-    top: 57px;
+    top: 54.66px;
+    left: -100vw;
+    background-color: var(--cor-azul-claro);
+    transition: .75s;
+}
+
+.cabecalho__menu--ativo {
+    position: absolute;
     left: 0;
-    background-color: var(--cor-azul-medio);
+    transition: .25s;
 }
 
 .menu__itens {
     display: flex;
     flex-direction: column;
-    height: 130px;
+    height: 30%;
     width: 40vw;
     justify-content: space-evenly;
+    padding-left: 1em;
 }
 
 .menu__link {
@@ -40,4 +57,29 @@
     color: white;
     font-size: 15px;
     font-weight: 400;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item::before {
+    padding-right: 1em;
+}
+
+.menu__item--inicio::before {
+    content: url(../img/inicio.png);
+}
+
+.menu__item--sobre-mim::before{
+    content: url(../img/perfil.png);
+}
+
+.menu__item--projetos::before{
+    content: url(../img/projetos.png);
+}
+
+.menu__item--contato::before{
+    content: url(../img/contato.png);
 }

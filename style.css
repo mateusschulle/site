@@ -6,15 +6,14 @@
 @import url(./styles/rodape.css);
 
 :root {
-    --cor-azul-escuro: #000524;
-    --cor-azul-medio: #010937;
-    --cor-azul: #020f59;
-    --cor-azul-claro: #101f78;
-    --cor-azul-light: #1c31a5;
-    --cor-amarelo: #ffab03;
+    --cor-azul-claro: #55a1ff;
+    --cor-amarela: #ffc861;
+    --cor-branca: #e9eaff;
+    --cor-cinza: #78797e;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
+    background-color: var(--cor-branca);
 }
