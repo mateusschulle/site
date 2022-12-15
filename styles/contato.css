@@ -1,27 +1,23 @@
 .container__contato {
-    background-color: var(--cor-azul-claro);
+    background-color: var(--cor-branco);
+    margin: 0 2em;
     padding: 3em 2em;
-    border-radius: 35px 35px 0 0;
+    border-radius: 35px;
 }
 
 .container__contato-titulo {
-    color: var(--cor-amarela);
+    color: var(--cor-laranja);
     font-size: 20px;
     font-weight: 800;
     display: inline-block;
 }
 
-.container__contato-lista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .container__contato-lista-link {
     display: flex;
     align-items: center;
-    margin: 2em 0;
     text-decoration: none;
+    padding: 1em;
+    width: 200px;
 }
 
 .container__contato-lista-logo {
@@ -31,16 +27,15 @@
 
 .container__contato-lista-titulo {
     text-decoration: none;
-    color: white;
     font-size: 18px;
+    color: var(--cor-preto);
 }
 
 .container__contato-curriculo {
-    color: var(--cor-azul-claro);
-    background-color: white;
+    color: var(--cor-branco);
+    background-color: var(--cor-laranja);
     font-size: 20px;
     font-weight: 500;
-    margin: 1em 0;
     display: inline-block;
     padding: 0.4em 0.6em;
     text-decoration: none;

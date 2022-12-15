@@ -1,40 +1,39 @@
 .cabecalho {
-    background-color: var(--cor-azul-claro);
+    position: relative;
+    background-color: var(--cor-preto);
     display: flex;
-    padding: 1em;
     align-items: center;
-    width: 100vw;
+    padding: 1em;
 }
 
 .cabecalho__menu-hamburguer {
     width: 25px;
     padding: 0.5em;
     border: solid 2px transparent;
+    border-radius: 10px;
     transition: .25s;
-    border-radius: 5px;
 }
 
 .cabecalho__menu-hamburguer--ativo {
-    border: solid 2px var(--cor-amarela);
-    border-radius: 5px;
-    transition: .25s;
+    border: solid 2px var(--cor-branco);
+    border-radius: 10px;
 }
 
 .cabecalho__titulo {
-    color: var(--cor-amarela);
+    color: var(--cor-branco);
     font-size: 15px;
-    margin-left: 1em;
     font-weight: 700;
+    justify-self: flex-end;
+    padding-left: 1em;
 }
 
 .cabecalho__menu {
-    height: calc(100vh - 54.66px);
-    width: 60%;
     position: absolute;
-    top: 54.66px;
+    height: calc(100vh - 56.66px);
+    width: 60%;
+    top: 56.66px;
     left: -100vw;
-    background-color: var(--cor-azul-claro);
-    transition: .75s;
+    background-color: var(--cor-preto);
 }
 
 .cabecalho__menu--ativo {
@@ -46,7 +45,7 @@
 .menu__itens {
     display: flex;
     flex-direction: column;
-    height: 30%;
+    height: 50%;
     width: 40vw;
     justify-content: space-evenly;
     padding-left: 1em;
@@ -62,6 +61,9 @@
 .menu__item {
     display: flex;
     align-items: center;
+    padding-bottom: 0.5em;
+    border-bottom: solid 2px transparent;
+    transition: .25s;
 }
 
 .menu__item::before {
@@ -82,4 +84,66 @@
 
 .menu__item--contato::before{
     content: url(../img/contato.png);
+}
+
+@media screen and (min-width: 1024px) {
+   .cabecalho {
+    justify-content: space-between;
+    border-radius: 0 0 20px 20px;
+   }
+
+   .cabecalho__menu-hamburguer {
+    display: none;
+   }
+
+   .cabecalho__titulo {
+    color: white;
+   }
+
+   .cabecalho__menu {
+    position: relative;
+    left: 0;
+    background-color: transparent;
+    height: 100%;
+    top: 0;
+    width: auto;
+   }
+
+   .menu__itens {
+    flex-direction: row;
+    justify-content: flex-end;
+   }
+
+   .menu__link {
+    font-size: 15px;
+   }
+
+   .menu__item {
+    margin-left: 2em;
+   }
+
+   .menu__item:hover {
+    border-bottom: solid 2px var(--cor-amarela);
+    transition: .25s;
+   }
+
+   .menu__item::before {
+        padding: 0;
+    }
+
+    .menu__item--inicio::before {
+        display: none;
+    }
+
+    .menu__item--sobre-mim::before{
+        display: none;
+    }
+
+    .menu__item--projetos::before{
+        display: none;
+    }
+
+    .menu__item--contato::before{
+        display: none;
+    }
 }

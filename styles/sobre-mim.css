@@ -1,10 +1,11 @@
 .container__sobre-mim {
-    background-color: var(--cor-azul-claro);
+    background-color: var(--cor-branco);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3em 2em;
     border-radius: 35px;
+    margin: 0 2em;
 }
 
 .container__sobre-mim-imagem {
@@ -13,19 +14,45 @@
 }
 
 .container__sobre-mim-titulo {
-    color: white;
+    color: var(--cor-preto);
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     margin: 1em 0;
 }
 
 b {
     font-weight: 800;
-    color: var(--cor-amarela);
+    color: var(--cor-laranja);
 }
 
 .container__sobre-mim-descricao {
-    color: white;
+    color: var(--cor-preto);
     text-align: justify;
     line-height: 15px;
+    text-align: justify;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__sobre-mim {
+        height: 100vh;
+        border-radius: 0;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .container__sobre-mim-titulo {
+        font-size: 25px;
+    }
+
+    .container__sobre-mim-descricao {
+        width: 400px;
+        margin-right: 5em;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .container__sobre-mim-imagem {
+        width: 300px;
+        border-radius: 0;
+    }
 }

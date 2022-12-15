@@ -1,22 +1,27 @@
 .container__inicio {
+    margin: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 45vh;
+}
+
+.container__inicio-div {
+    display: flex;
+    align-items: center;
 }
 
 .container__inicio-titulo {
     font-size: 40px;
     font-weight: 700;
-    color: var(--cor-amarela);
-    text-shadow: 1px 1px var(--cor-azul-claro);
+    color: var(--cor-branco);
 }
 
 .container__inicio-descricao {
-    font-size: 20px;
-    font-weight: 400;
-    color: var(--cor-cinza);
+    font-size:18px;
+    font-weight: 200;
+    color: var(--cor-branco);
     margin: 0.4em;
 }
 
