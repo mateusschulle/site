@@ -4,6 +4,7 @@
 @import url(./styles/projetos.css);
 @import url(./styles/contato.css);
 @import url(./styles/rodape.css);
+@import url(./styles/contato-flutuante.css);
 
 :root {
     --cor-preto: #030303;
@@ -17,4 +18,3 @@ body {
     font-size: 12px;
     background-color: #202020;
 }
-

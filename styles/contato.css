@@ -47,13 +47,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .container__contato-titulo {
-        font-size: 25px;
-    }
-
-    .container__contato-lista {
-        display: flex;
-        justify-content: space-evenly;
-        margin: 2em 0;
+    .container__contato {
+        display: none;
     }
 }
