@@ -89,7 +89,7 @@
 @media screen and (min-width: 1024px) {
    .cabecalho {
     justify-content: space-between;
-    padding: 2em;
+    padding: 2em 10em;
    }
 
    .cabecalho__menu-hamburguer {
