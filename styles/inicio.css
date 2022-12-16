@@ -35,6 +35,14 @@
 
 @media screen and (min-width: 1024px) {
     .container__inicio {
-        height: 60vh;
+        height: 70vh;
+    }
+
+    .container__inicio-titulo {
+        font-size: 60px;
+    }
+    
+    .container__inicio-descricao {
+        font-size: 25px;
     }
 }

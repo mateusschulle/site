@@ -39,6 +39,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .container__projetos {
+        padding: 10em 10em;
+    }
     .container__projetos-titulo {
         font-size: 25px;
         align-self: flex-start;
@@ -46,8 +49,16 @@
 
     .container__projetos-lista-item {
         width: 200px;
-        padding: 2em;
+        padding: 1.5em;
         height: 90px;
+        transition: .25s;
+        box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.096);
+    }
+
+    .container__projetos-lista-item:hover {
+        box-shadow: 1px 1px 10px rgba(255, 255, 255, 0);
+        transition: .25s;
+        transform: scale(99%);
     }
 
     .container__projetos-lista {

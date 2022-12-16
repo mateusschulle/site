@@ -121,11 +121,13 @@
 
    .menu__item {
     margin-left: 2em;
+    transition: .25s;
    }
 
    .menu__item:hover {
     border-bottom: solid 2px var(--cor-branco);
     transition: .25s;
+    transform: scale(105%);
    }
 
    .menu__item::before {
