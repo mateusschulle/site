@@ -10,6 +10,8 @@
         top: 50%;
         transform: translateY(-50%);
         height: 50vh;
+        animation-name: slideIn;
+        animation-duration: 1.5s;
     }
     
     .midias__contato-lista {
@@ -64,4 +66,11 @@
         background-color: var(--cor-branco);
         border-radius: 50%;
     }
+
+    @keyframes slideIn {
+        from {
+            left: -100px;
+        }
+    }
 }
+

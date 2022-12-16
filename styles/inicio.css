@@ -16,6 +16,8 @@
     font-size: 40px;
     font-weight: 700;
     color: var(--cor-branco);
+    animation-name: slideIn;
+    animation-duration: 2s;
 }
 
 .container__inicio-descricao {
@@ -23,6 +25,8 @@
     font-weight: 200;
     color: var(--cor-branco);
     margin: 0.4em;
+    animation-name: slideIn;
+    animation-duration: 2s;
 }
 
 .container__inicio-descricao::before{
@@ -31,6 +35,12 @@
 
 .container__inicio-descricao::after {
     content: '>';
+}
+
+@keyframes slideIn {
+    from {
+        margin-left: -100vh;
+    }
 }
 
 @media screen and (min-width: 1024px) {
